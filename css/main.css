@@ -1,0 +1,20 @@
+div{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	display: inline-block;
+}
+form{
+	text-align: center;
+}
+.verde{
+	background: lightgreen;
+
+	
+}
+.azul{
+	background: lightblue;
+}
+.rojo{
+	background: red;
+}
