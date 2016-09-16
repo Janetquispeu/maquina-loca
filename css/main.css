@@ -1,20 +1,35 @@
-div{
-	width: 100px;
-	height: 100px;
-	border-radius: 100%;
+#verde{
+	width:100px;
+	height:100px;
+	background-color:lightgreen;
+	border-radius:50%;
 	display: inline-block;
+	margin-left:30px;
+	margin-right:30px;
+}
+#rojo{
+	width:100px;
+	height:100px;
+	background-color:red;
+	border-radius:50%;
+	display: inline-block;
+	margin-left:300px;
+	margin-right:30px;
+
+}
+#azul{
+	width:100px;
+	height:100px;
+	background-color:lightblue;
+	border-radius:50%;
+	display: inline-block;
+	margin-left:30px;
+	margin-right:30px;
+
 }
 form{
-	text-align: center;
+	margin-left: 450px;
 }
-.verde{
-	background: lightgreen;
-
-	
-}
-.azul{
-	background: lightblue;
-}
-.rojo{
-	background: red;
+.borde-rojo, .borde-azul , .borde-verde{
+	border:5px solid black;
 }
