@@ -8,4 +8,5 @@
 
 SUPER CRI 
 
-1. 
+1. Para el suer cri haremos casi similar aplicaremos al boton_sc un evento donde al hacer click aplique la función anónima.Pero para esto no necesitamos un contador ya que queremos que se ubique de acuerdo al color que el usuario indique. Asi que dentro de la función anónima declaramos una variable en este caso nombre_color , de ella obtendremos su valor.
+El if nos indicará a cual color es igual , a la que entre primero le aplicará la clase borde de acuerdo al color que entre, y claro tenemos que remover los otros dos bordes,  eso lo hacemos con el remove.
