@@ -26,20 +26,20 @@ window.addEventListener("load", function() {
 });
 
 window.addEventListener("load", function() {
-	var boton2 = document.getElementById("superCri");
-	boton2.addEventListener("click", function() {
-		var nombre-color=document.getElementById("nom-color").value;
-		if(m=="rojo") {
+	var boton_sc = document.getElementById("superCri");
+	boton_sc.addEventListener("click", function() {
+		var nombre_color=document.getElementById("nom-color").value;
+		if(nombre_color=="rojo") {
 			document.getElementById("rojo").classList.add("borde-rojo");
 			document.getElementById("verde").classList.remove("borde-verde");
 			document.getElementById("azul").classList.remove("borde-azul");
 		}
-		if(nombre-color== "azul") {
+		if(nombre_color== "azul") {
 			document.getElementById("azul").classList.add("borde-azul");
 			document.getElementById("rojo").classList.remove("borde-rojo");
 			document.getElementById("verde").classList.remove("borde-verde");
 		}
-		if(nombre-color== "verde") {
+		if(nombre_color== "verde") {
 			document.getElementById("verde").classList.add("borde-verde");
 			document.getElementById("azul").classList.remove("borde-azul");
 			document.getElementById("rojo").classList.remove("borde-rojo");
